@@ -1,0 +1,35 @@
+@import url('https://fonts.google.com/share?selection.family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700');
+
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.stopwatch-display {
+	font-size: 48px;
+  text-align: center;
+	padding: 40px 0;
+	color: black;
+	margin: 200px auto 0;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0);
+}
+
+button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #0069d9;
+}
+
+#lap-times-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
